@@ -120,7 +120,7 @@ body {
             /*copied code for transparency*/
 .box {
     position: relative;
-    width: 75%;
+    width: 50%;
 }
 
 .image {
@@ -293,13 +293,13 @@ body {
                                           /*PHOTOGRAPHY STYLE PAGE*/
 #photos {
   /* Prevent vertical gaps */
-  line-height: 0;
-  -webkit-column-count: 2;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    2;
-  -moz-column-gap:      0px;
-  column-count:         2;
-  column-gap:           0px; 
+  line-height: normal;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   10px;
+  -moz-column-count:    3;
+  -moz-column-gap:      10px;
+  column-count:         3;
+  column-gap:           10px; 
   padding-top: 20px; 
   -ms-flex-order: random;
 }
@@ -311,8 +311,9 @@ body {
 }
  /*button style*/
  .button {
-  background-color: #94459B;
+  background-color: #f48f0a;
   border: none;
+  width: 100%;
   color: white;
   padding: 15px 25px;
   text-align: center;
